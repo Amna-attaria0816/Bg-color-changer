@@ -10,3 +10,6 @@ document.getElementById('Btn').addEventListener('click', ()=>{
     let colorChanger =getRandomColor();
     document.body.style.backgroundColor = colorChanger;
 } )
+document.getElementById('reset').addEventListener('click' , ()=>{
+    document.body.style.backgroundColor = '#ffffff';
+})
