@@ -34,4 +34,19 @@ body {
 #Btn:hover {
     transform: scale(1.1); 
 }
+  #reset {
+    padding: 10px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: transform 0.2s;
+}
+
+#reset:hover {
+    transform: scale(1.1); 
+}
  
